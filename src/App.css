@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+nav.smarte_header {
+  background-color: #F3FAFC;
+  display: flex !important;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.smarte_header .smarte_header_logo {
+  color: #385482;
+  position: relative;
+  font-size: 20px;
+  font-weight: 800;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.smarte_header_logo .custom_i {
+  color: orange;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.smarte_header_logo .sub_logo {
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -1px;
+    right: -17px;
+}
+.smarte_header button.manage_link {
+  border: none;
+  background-color: inherit;
+  color: #385482;
+}
+.custom_container_sub {
+  text-align: left;
+  border-bottom: 1px solid grey;
+  padding-bottom: .5rem;
+}
+.queue_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+a.view_supression_link {
+  color: #0069D9;
+  text-decoration: none;
+}
+
+a.view_supression_link:hover 
+{
+   color:#0069D9; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+.custom_container_sub .inner_lables {
+  padding: .5rem 1rem;
+}
+.custom_container_sub .queue_label {
+  font-weight: 700;
+}
+.custom_container_sub span.supression_list {
+  border-bottom: 3px solid #385482;
+}
+.faUser, .faDotCircle {
+  color: #385482;
+}
+.total_record_container {
+  text-align: left;
+  padding: 1.5rem 1rem .5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+.total_record_container h3 {
+  font-size: 16px;
+}
+.total_record_container span.number_of_record {
+  color: orange;
+  margin-left: 10px;
+}
+.form_group {
+  display: flex !important;
+
+}
+.pagination_container .pagination {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.pagination_container {
+  padding: 1rem 0;
+}
+.pagination_container .pagination .blocks{
+  padding: 0 .5rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

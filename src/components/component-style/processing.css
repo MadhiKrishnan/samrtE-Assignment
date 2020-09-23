@@ -1,0 +1,39 @@
+.processing-queue-section {
+  height: 50vh;
+  overflow: scroll;
+}
+.processing-queue-container .processing-queue-date {
+    padding: .5rem 0;
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-left: .5rem;
+  }
+  .processing-queue-container .processing-queue-content {
+    padding: .5rem;
+    border-bottom: 1px solid grey;
+  }
+  .processing-queue-content h3.processing-queue-content_header {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .processing-queue_cell .inner_header {
+    color: grey;
+  }
+  .processing-queue_cell span.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 9px;
+    margin-right: 8px;
+    position: absolute;
+    top: 5px;
+  }
+  .processing-queue_cell .orange-circle {
+    background-color: orange;
+  }
+  .processing-queue_cell .blue-circle {
+    background-color: #0069D9;
+  }
+  .processing-queue_cell .status_label {
+    padding-left: 1.5rem;
+    font-weight: 700;
+  }
